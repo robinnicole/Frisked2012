@@ -11,13 +11,23 @@ background-color: #3F4449;
 
 }
 
+#standPage_wrap{
+position:absolute;
+width: 800px;
+height: 980px;
+
+left: 50%;
+}
+
 #soundBox {
-height: 100%;
-width: 100%;
+position: relative;
+width: 800px;
+height: 980px;
+left: -50%;
 
 }
 
-/*
+
 
 
 #soundBox .header_mat{
@@ -25,11 +35,9 @@ width: 100%;
 position: absolute;
 width: 100%;
 height: 200px;
-top: 10px;
-background-color: #3B3839;
-border-radius: 4px;
+top: 80px;
 }
-*/
+
 
 
 /*
@@ -49,20 +57,34 @@ text-align: center;
 
 
 h1{
-font-size: 180px;
+position: relative;
+font-size: 160px;
 color: #B6BBC6;
 text-align: center;
 font-family: 'Uptown';
+/* width:100%; */
+height: 161px;
+left: 0px;
+
 }
 
 
 
 #video_player{
 position: absolute;
-top: 360px;
-left: 600px;
+top: 180px;
 
 
+
+}
+
+#manGrey {
+position: absolute;
+top: 318px;
+width: 420px;
+height: 772px;
+margin-left: -105px;
+background-image: url('images/manFrisked2.png')
 }
 
 
